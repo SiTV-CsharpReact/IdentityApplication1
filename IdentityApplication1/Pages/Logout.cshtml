@@ -1,0 +1,18 @@
+﻿@page
+@model IdentityApplication1.Pages.LogoutModel
+@{
+}
+<form method="post">
+    <div container mt-5>
+        <div class="row justify-content-center">
+            <div class=" col-sm-12 col-md-12 col-lg-4">
+                     <p>Ban muon thoat?</p>
+                     <p>
+                         <button class="btn btn-primary" asp-page-handler="LogOut">Co</button>
+                         <button class="btn btn-light ml-5 border-dark" asp-page-handler="DontLogOut">Khong</button>
+                     </p>
+            </div>
+
+        </div>
+    </div>
+</form>
