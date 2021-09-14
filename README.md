@@ -1,2 +1,2 @@
 # IdentityApplication1
-# Login and Register từ 
+# Login and Register từ Entity
